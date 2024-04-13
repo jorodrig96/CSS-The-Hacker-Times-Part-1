@@ -1,1 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    background-color: #eee;
+    font-family: Source Sans Pro;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    }
+
+nav {
+    border-top: solid;
+    border-bottom: solid;
+    color: #eee;
+}
+
+nav li {
+    display: inline-block;
+    padding: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #777;
+}
+
+a:hover{
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-family: Abril Fatface;
+}
+
+.newspaper-container{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 10px #ddd;
+}
+
+p {
+    font-family: Roboto Slab;
+    color: #777;
+}
+
+h5 {
+    color: #dd3232;
+    font-family: Abril Fatface;
+}
+
+
+.more-articles{
+    display: inline-block; /* if we use display: flex it will make the articles come up side by side */
+}
